@@ -1,4 +1,9 @@
-
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
 
 h1 {
   font-size: 40px;
@@ -17,3 +22,15 @@ p {
 }
 
 
+header {
+  background-color: rgb(141, 197, 141);
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 120px;
+  margin-right: 15px;
+}
